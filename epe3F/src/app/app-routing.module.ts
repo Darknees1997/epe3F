@@ -10,6 +10,11 @@ const routes: Routes = [
   { path: 'page3', loadChildren: './page3/page3.module#Page3PageModule' },
   { path: 'page4', loadChildren: './page4/page4.module#Page4PageModule' },
   { path: 'page5', loadChildren: './page5/page5.module#Page5PageModule' },
+  { path: 'img1', loadChildren: './img1/img1.module#Img1PageModule' },
+  { path: 'img2', loadChildren: './img2/img2.module#Img2PageModule' },
+  { path: 'img3', loadChildren: './img3/img3.module#Img3PageModule' },
+  { path: 'img4', loadChildren: './img4/img4.module#Img4PageModule' },
+  { path: 'img5', loadChildren: './img5/img5.module#Img5PageModule' },
 ];
 
 @NgModule({
