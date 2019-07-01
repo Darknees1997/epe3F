@@ -13,5 +13,26 @@ export class Pagina2Page implements OnInit {
 
   ngOnInit() {
   }
-
-}
+  menu(){
+    this.menuCtrl.toggle();
+  }
+  lol(){
+    this.navCrtl.navigateForward("page1");
+   }
+  mk(){
+    this.navCrtl.navigateForward("page2");
+    
+  }
+  ff(){
+    this.navCrtl.navigateForward("page3");
+    
+  }
+  ps5(){
+    this.navCrtl.navigateForward("page4");
+    
+  }
+  jf(){
+    this.navCrtl.navigateForward("page5");
+    
+  }
+ }
