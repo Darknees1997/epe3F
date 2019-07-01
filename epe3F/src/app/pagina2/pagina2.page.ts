@@ -9,7 +9,7 @@ import { NavController } from '@ionic/angular';
 })
 export class Pagina2Page implements OnInit {
 
-  constructor() { }
+  constructor(public menuCtrl : MenuController, public navCrtl: NavController) { }
 
   ngOnInit() {
   }
