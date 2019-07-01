@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-page1',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Page1Page implements OnInit {
 
-  constructor() { }
+  constructor(public navCtrl: NavController) { }
 
   ngOnInit() {
   }
-
+  imagen1(){
+    this.navCtrl.navigateForward("img1");
+    }
 }
