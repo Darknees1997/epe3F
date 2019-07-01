@@ -9,5 +9,9 @@ import { NavController } from '@ionic/angular';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {}
-
+  ngOnInit() {
+  }
+  Comenzar(){
+  this.navCtrl.navigateForward("pagina2");
+}
 }
