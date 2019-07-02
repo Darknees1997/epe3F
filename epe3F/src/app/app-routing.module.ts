@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'img3', loadChildren: './img3/img3.module#Img3PageModule' },
   { path: 'img4', loadChildren: './img4/img4.module#Img4PageModule' },
   { path: 'img5', loadChildren: './img5/img5.module#Img5PageModule' },
+  { path: 'comentar', loadChildren: './comentar/comentar.module#ComentarPageModule' },
 ];
 
 @NgModule({
