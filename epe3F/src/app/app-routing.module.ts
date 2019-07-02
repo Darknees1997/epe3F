@@ -16,6 +16,7 @@ const routes: Routes = [
   { path: 'img4', loadChildren: './img4/img4.module#Img4PageModule' },
   { path: 'img5', loadChildren: './img5/img5.module#Img5PageModule' },
   { path: 'comentar', loadChildren: './comentar/comentar.module#ComentarPageModule' },
+  { path: 'todo-details', loadChildren: './pages/todo-details/todo-details.module#TodoDetailsPageModule' },
 ];
 
 @NgModule({
